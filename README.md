@@ -42,3 +42,5 @@ Valeurs obtenues pendant la préparation : références F1 = 0.7407 (logistique)
 - `reports/comparatif.md` : tableau comparatif, réponses aux questions et sources cloud officielles.
 
 Ne versionnez pas `data/`, `mlflow.db`, `mlartifacts/` ni `.venv/`.
+
+Le script de fuite limite FLAML à LightGBM pour rendre la démonstration rapide et stable : cette famille identifie le numéro de litige postérieur comme signal direct de la cible.

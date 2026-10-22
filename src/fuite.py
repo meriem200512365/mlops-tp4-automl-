@@ -20,10 +20,10 @@ def main():
         ytr,
         task="classification",
         metric="f1",
-        time_budget=30,
+        time_budget=5,
         seed=42,
         verbose=0,
-        estimator_list=["lgbm", "rf", "extra_tree"],
+        estimator_list=["lgbm"],
         n_jobs=1,
     )
     print("famille retenue :", automl.best_estimator)
