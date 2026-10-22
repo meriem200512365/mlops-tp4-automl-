@@ -1,0 +1,4 @@
+{"record_id": 1, "learner": "logistique", "config": {"C": 1.5744685581930316}, "validation_loss": 0.2564469367513542, "wall_clock_time": 0.67}
+{"record_id": 2, "learner": "rf", "config": {"n_estimators": 100, "max_depth": 16, "min_samples_leaf": 1}, "validation_loss": 0.2069737622842066, "wall_clock_time": 3.47}
+{"record_id": 3, "learner": "extra_tree", "config": {"n_estimators": 100, "max_depth": 10}, "validation_loss": 0.2607254014313515, "wall_clock_time": 5.29}
+{"record_id": 4, "learner": "hist_gb", "config": {"learning_rate": 0.12726436686429432, "max_leaf_nodes": 63, "max_iter": 400}, "validation_loss": 0.2112553646103824, "wall_clock_time": 61.75}

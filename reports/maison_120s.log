@@ -1,0 +1,14 @@
+{"record_id": 1, "learner": "logistique", "config": {"C": 1.5744685581930316}, "validation_loss": 0.2564469367513542, "wall_clock_time": 0.16}
+{"record_id": 2, "learner": "rf", "config": {"n_estimators": 100, "max_depth": 16, "min_samples_leaf": 1}, "validation_loss": 0.2069737622842066, "wall_clock_time": 0.94}
+{"record_id": 3, "learner": "extra_tree", "config": {"n_estimators": 100, "max_depth": 10}, "validation_loss": 0.2607254014313515, "wall_clock_time": 1.39}
+{"record_id": 4, "learner": "hist_gb", "config": {"learning_rate": 0.12726436686429432, "max_leaf_nodes": 63, "max_iter": 400}, "validation_loss": 0.2112553646103824, "wall_clock_time": 11.84}
+{"record_id": 5, "learner": "logistique", "config": {"C": 0.8963189166877368}, "validation_loss": 0.2549206852251027, "wall_clock_time": 12.03}
+{"record_id": 6, "learner": "logistique", "config": {"C": 0.0014092436844240848}, "validation_loss": 0.4671132705582449, "wall_clock_time": 12.17}
+{"record_id": 7, "learner": "rf", "config": {"n_estimators": 100, "max_depth": 6, "min_samples_leaf": 5}, "validation_loss": 0.2623176898216264, "wall_clock_time": 12.97}
+{"record_id": 8, "learner": "rf", "config": {"n_estimators": 400, "max_depth": null, "min_samples_leaf": 1}, "validation_loss": 0.21145713909110997, "wall_clock_time": 16.65}
+{"record_id": 9, "learner": "hist_gb", "config": {"learning_rate": 0.07654177439035738, "max_leaf_nodes": 15, "max_iter": 100}, "validation_loss": 0.18923815876392858, "wall_clock_time": 17.91}
+{"record_id": 10, "learner": "hist_gb", "config": {"learning_rate": 0.032387376860776036, "max_leaf_nodes": 15, "max_iter": 100}, "validation_loss": 0.1995686794956869, "wall_clock_time": 19.57}
+{"record_id": 11, "learner": "extra_tree", "config": {"n_estimators": 100, "max_depth": 6}, "validation_loss": 0.5160642419853587, "wall_clock_time": 19.98}
+{"record_id": 12, "learner": "hist_gb", "config": {"learning_rate": 0.013966081280790875, "max_leaf_nodes": 31, "max_iter": 400}, "validation_loss": 0.1913518648899818, "wall_clock_time": 30.18}
+{"record_id": 13, "learner": "extra_tree", "config": {"n_estimators": 100, "max_depth": null}, "validation_loss": 0.21736374736374742, "wall_clock_time": 30.99}
+{"record_id": 14, "learner": "logistique", "config": {"C": 73.38018796845141}, "validation_loss": 0.25585439204116245, "wall_clock_time": 31.16}
