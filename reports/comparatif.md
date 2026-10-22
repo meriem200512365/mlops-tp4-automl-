@@ -6,7 +6,7 @@ Données et références reproduites avec `donnees.py` (5 000 transactions, 568 
 |---|---:|---|---|---|---|---|
 | Logistique (réf.) | 0.7407 | Faible | À relever sur votre poste (`python src/references.py`) | 0 € de facturation cloud (poste local) | Maximale : coefficients inspectables | Totale : modèle scikit-learn local |
 | Manuel (TP2) | 0.8669 | Moyen/élevé : essais et réglages manuels | À relever sur votre poste (`python src/references.py`) | 0 € de facturation cloud (poste local) | Bonne : importances et paramètres accessibles | Totale : modèle scikit-learn local |
-| Recherche locale sklearn (budget 60 s) | 0.8539 | Faible après préparation des données | 60 s demandées, 64.9 s mesurées | 0 € de facturation cloud (poste local) | Moyenne : dépend de la famille gagnante et de ses outils | Totale : export des modèles scikit-learn |
+| FLAML (budget 60 s) | 0.8582 | Faible après préparation des données | 60 s demandées, 60.6 s mesurées | 0 € de facturation cloud (poste local) | Moyenne : dépend de la famille gagnante et de ses outils | Totale : modèle Python local, dépendances à conserver |
 | Vertex AI AutoML tabulaire | non mesuré | Faible à moyen | Budget et ressources configurés dans la tâche | Facturation à l'heure de nœud ; tarif tabulaire selon la configuration, consulter le calculateur / devis Google. Le déploiement d'un endpoint est facturé tant que le modèle reste déployé. [Tarifs Vertex AI](https://cloud.google.com/products/gemini-enterprise-agent-platform/pricing) | Bonne : importance des variables et évaluations disponibles | Partielle : export tabulaire possible vers Cloud Storage, mais contraintes d'exécution et explications Vertex indisponibles hors service |
 | SageMaker Autopilot | non mesuré | Faible à moyen | Ressources de calcul et stockage effectivement consommés | Facturation des ressources de calcul et stockage sous-jacentes ; endpoint facturé pendant son utilisation. [Tarification SageMaker](https://aws.amazon.com/sagemaker/ai/pricing/) | Bonne : rapports de performance, importance des variables et notebooks générés | Moyenne : artefacts et notebooks exportables, intégration à l'écosystème AWS |
 | Azure Automated ML | non mesuré | Faible à moyen | Calcul facturé par VM/cluster pendant son exécution | VM/stockage/réseau facturés selon région et durée ; supprimer les ressources inutilisées. [Tarifs Azure ML](https://azure.microsoft.com/en-us/pricing/details/machine-learning/) | Bonne : métriques, graphiques, explications/Responsible AI selon configuration | Moyenne : script de scoring et environnement générés, format dépend du modèle |
@@ -23,7 +23,7 @@ Données et références reproduites avec `donnees.py` (5 000 transactions, 568 
 
 ### 1. Réglage manuel ou AutoML ?
 
-La référence manuelle du TP2 obtient F1 = 0.8669, contre 0.8539 pour la recherche maison de 60 s : l'écart est faible (0.0130) et le manuel reste légèrement meilleur. L'intérêt de l'AutoML tient au temps humain économisé, à l'exploration systématique de plusieurs familles et à la traçabilité des essais ; il ne garantit pas un meilleur score.
+La référence manuelle du TP2 obtient F1 = 0.8669, contre 0.8582 pour FLAML à 60 s : l'écart est faible (0.0087) et le réglage manuel reste légèrement meilleur. L'intérêt d'AutoML tient au temps humain économisé, à l'exploration systématique de plusieurs familles et à la traçabilité des essais ; il ne garantit pas un meilleur score.
 
 ### 2. Le coût réel
 
@@ -47,7 +47,7 @@ Le numéro de litige est créé après la contestation, mais il encode ici direc
 
 ## Limites de ce rendu
 
-Le plan B scikit-learn est utilisé car FLAML n'est pas disponible dans l'environnement actuel. Les comparaisons cloud sont documentaires, sans compte ni entraînement facturé. Ce rendu contient les journaux locaux et le graphique ; les captures d'écran de l'interface MLflow restent à prendre dans votre session.
+FLAML 2.7.0 a été installé sous Python 3.13.2 et utilisé pour les quatre budgets. Les comparaisons cloud sont documentaires, sans compte ni entraînement facturé. Ce rendu contient les journaux locaux et le graphique ; les captures d'écran de l'interface MLflow restent à prendre dans votre session.
 
 ## Sources officielles consultées le 22/10/2026
 

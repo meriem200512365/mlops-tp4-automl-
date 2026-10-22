@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 def main():
     mlflow.set_tracking_uri("sqlite:///mlflow.db")
     runs = mlflow.search_runs(experiment_names=["tp4-automl"])
-    auto = runs[runs["params.outil"].isin(["flaml", "sklearn-maison"])].copy()
+    auto = runs[runs["params.outil"] == "flaml"].copy()
     if auto.empty:
         raise SystemExit("Aucun run AutoML trouvé : lancez les budgets 10, 30, 60 et 120 s d'abord.")
     auto["budget"] = auto["params.budget_s"].astype(int)

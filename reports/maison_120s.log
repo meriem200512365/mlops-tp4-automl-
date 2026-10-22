@@ -12,3 +12,53 @@
 {"record_id": 12, "learner": "hist_gb", "config": {"learning_rate": 0.013966081280790875, "max_leaf_nodes": 31, "max_iter": 400}, "validation_loss": 0.1913518648899818, "wall_clock_time": 30.18}
 {"record_id": 13, "learner": "extra_tree", "config": {"n_estimators": 100, "max_depth": null}, "validation_loss": 0.21736374736374742, "wall_clock_time": 30.99}
 {"record_id": 14, "learner": "logistique", "config": {"C": 73.38018796845141}, "validation_loss": 0.25585439204116245, "wall_clock_time": 31.16}
+{"record_id": 15, "learner": "hist_gb", "config": {"learning_rate": 0.013128052267094995, "max_leaf_nodes": 31, "max_iter": 400}, "validation_loss": 0.18609034081064146, "wall_clock_time": 40.32}
+{"record_id": 16, "learner": "extra_tree", "config": {"n_estimators": 400, "max_depth": 10}, "validation_loss": 0.26349763368253765, "wall_clock_time": 42.66}
+{"record_id": 17, "learner": "logistique", "config": {"C": 0.0016948135139409264}, "validation_loss": 0.46332302103572864, "wall_clock_time": 42.82}
+{"record_id": 18, "learner": "rf", "config": {"n_estimators": 200, "max_depth": 6, "min_samples_leaf": 1}, "validation_loss": 0.23613086150490725, "wall_clock_time": 44.47}
+{"record_id": 19, "learner": "logistique", "config": {"C": 0.0795483407134975}, "validation_loss": 0.2797217885890625, "wall_clock_time": 44.63}
+{"record_id": 20, "learner": "hist_gb", "config": {"learning_rate": 0.08985177613476127, "max_leaf_nodes": 31, "max_iter": 100}, "validation_loss": 0.18510819043116722, "wall_clock_time": 46.12}
+{"record_id": 21, "learner": "extra_tree", "config": {"n_estimators": 200, "max_depth": 10}, "validation_loss": 0.26610276567135926, "wall_clock_time": 47.1}
+{"record_id": 22, "learner": "extra_tree", "config": {"n_estimators": 400, "max_depth": 6}, "validation_loss": 0.5141393712822284, "wall_clock_time": 48.58}
+{"record_id": 23, "learner": "rf", "config": {"n_estimators": 400, "max_depth": 10, "min_samples_leaf": 1}, "validation_loss": 0.21139972644688554, "wall_clock_time": 51.39}
+{"record_id": 24, "learner": "hist_gb", "config": {"learning_rate": 0.03708370884424782, "max_leaf_nodes": 63, "max_iter": 400}, "validation_loss": 0.20579196441800784, "wall_clock_time": 61.33}
+{"record_id": 25, "learner": "rf", "config": {"n_estimators": 400, "max_depth": 16, "min_samples_leaf": 1}, "validation_loss": 0.21293955071321713, "wall_clock_time": 64.32}
+{"record_id": 26, "learner": "rf", "config": {"n_estimators": 100, "max_depth": 16, "min_samples_leaf": 2}, "validation_loss": 0.19969442506195711, "wall_clock_time": 65.08}
+{"record_id": 27, "learner": "extra_tree", "config": {"n_estimators": 100, "max_depth": 10}, "validation_loss": 0.2607254014313515, "wall_clock_time": 65.5}
+{"record_id": 28, "learner": "extra_tree", "config": {"n_estimators": 100, "max_depth": null}, "validation_loss": 0.21736374736374742, "wall_clock_time": 65.96}
+{"record_id": 29, "learner": "hist_gb", "config": {"learning_rate": 0.21233653732603072, "max_leaf_nodes": 63, "max_iter": 200}, "validation_loss": 0.2088250162308718, "wall_clock_time": 69.43}
+{"record_id": 30, "learner": "rf", "config": {"n_estimators": 200, "max_depth": 10, "min_samples_leaf": 1}, "validation_loss": 0.207362388101051, "wall_clock_time": 70.9}
+{"record_id": 31, "learner": "extra_tree", "config": {"n_estimators": 400, "max_depth": null}, "validation_loss": 0.21210426616689837, "wall_clock_time": 72.89}
+{"record_id": 32, "learner": "hist_gb", "config": {"learning_rate": 0.03491360270220961, "max_leaf_nodes": 15, "max_iter": 400}, "validation_loss": 0.1872135879560305, "wall_clock_time": 75.29}
+{"record_id": 33, "learner": "hist_gb", "config": {"learning_rate": 0.013688760284533641, "max_leaf_nodes": 15, "max_iter": 100}, "validation_loss": 0.3314863048924134, "wall_clock_time": 75.91}
+{"record_id": 34, "learner": "rf", "config": {"n_estimators": 400, "max_depth": 10, "min_samples_leaf": 5}, "validation_loss": 0.21125504768627446, "wall_clock_time": 78.61}
+{"record_id": 35, "learner": "hist_gb", "config": {"learning_rate": 0.07845372089726681, "max_leaf_nodes": 31, "max_iter": 200}, "validation_loss": 0.20011601128945677, "wall_clock_time": 80.68}
+{"record_id": 36, "learner": "hist_gb", "config": {"learning_rate": 0.06218297809755883, "max_leaf_nodes": 63, "max_iter": 100}, "validation_loss": 0.18383223595826836, "wall_clock_time": 82.6}
+{"record_id": 37, "learner": "logistique", "config": {"C": 2.56183907262376}, "validation_loss": 0.2564469367513542, "wall_clock_time": 82.7}
+{"record_id": 38, "learner": "extra_tree", "config": {"n_estimators": 400, "max_depth": 16}, "validation_loss": 0.20104064818463652, "wall_clock_time": 84.53}
+{"record_id": 39, "learner": "logistique", "config": {"C": 0.02934273849929894}, "validation_loss": 0.3079945253726989, "wall_clock_time": 84.61}
+{"record_id": 40, "learner": "rf", "config": {"n_estimators": 200, "max_depth": 6, "min_samples_leaf": 5}, "validation_loss": 0.2583072062073831, "wall_clock_time": 85.81}
+{"record_id": 41, "learner": "extra_tree", "config": {"n_estimators": 400, "max_depth": 10}, "validation_loss": 0.26349763368253765, "wall_clock_time": 87.4}
+{"record_id": 42, "learner": "logistique", "config": {"C": 22.521268545654987}, "validation_loss": 0.25585439204116245, "wall_clock_time": 87.5}
+{"record_id": 43, "learner": "extra_tree", "config": {"n_estimators": 400, "max_depth": 10}, "validation_loss": 0.26349763368253765, "wall_clock_time": 89.09}
+{"record_id": 44, "learner": "rf", "config": {"n_estimators": 200, "max_depth": 10, "min_samples_leaf": 5}, "validation_loss": 0.2119710049239707, "wall_clock_time": 90.34}
+{"record_id": 45, "learner": "logistique", "config": {"C": 0.9879226038924455}, "validation_loss": 0.2549206852251027, "wall_clock_time": 90.42}
+{"record_id": 46, "learner": "hist_gb", "config": {"learning_rate": 0.010695845317822895, "max_leaf_nodes": 31, "max_iter": 200}, "validation_loss": 0.2085093939174686, "wall_clock_time": 92.47}
+{"record_id": 47, "learner": "rf", "config": {"n_estimators": 100, "max_depth": 10, "min_samples_leaf": 5}, "validation_loss": 0.21892791722883354, "wall_clock_time": 93.13}
+{"record_id": 48, "learner": "logistique", "config": {"C": 0.002680817564750089}, "validation_loss": 0.4214116273489813, "wall_clock_time": 93.2}
+{"record_id": 49, "learner": "hist_gb", "config": {"learning_rate": 0.16750774035741112, "max_leaf_nodes": 63, "max_iter": 100}, "validation_loss": 0.21452735044301452, "wall_clock_time": 95.18}
+{"record_id": 50, "learner": "rf", "config": {"n_estimators": 400, "max_depth": null, "min_samples_leaf": 5}, "validation_loss": 0.21373336243224728, "wall_clock_time": 97.85}
+{"record_id": 51, "learner": "rf", "config": {"n_estimators": 200, "max_depth": null, "min_samples_leaf": 1}, "validation_loss": 0.2122988652800183, "wall_clock_time": 99.0}
+{"record_id": 52, "learner": "rf", "config": {"n_estimators": 400, "max_depth": 16, "min_samples_leaf": 2}, "validation_loss": 0.20358310703293236, "wall_clock_time": 101.66}
+{"record_id": 53, "learner": "extra_tree", "config": {"n_estimators": 200, "max_depth": null}, "validation_loss": 0.21933200294642352, "wall_clock_time": 102.63}
+{"record_id": 54, "learner": "logistique", "config": {"C": 0.017359134508434543}, "validation_loss": 0.32514035149924947, "wall_clock_time": 102.72}
+{"record_id": 55, "learner": "logistique", "config": {"C": 0.04902615238067265}, "validation_loss": 0.29750097656462626, "wall_clock_time": 102.81}
+{"record_id": 56, "learner": "rf", "config": {"n_estimators": 400, "max_depth": 10, "min_samples_leaf": 1}, "validation_loss": 0.21139972644688554, "wall_clock_time": 105.54}
+{"record_id": 57, "learner": "logistique", "config": {"C": 3.461024971312315}, "validation_loss": 0.2564469367513542, "wall_clock_time": 105.61}
+{"record_id": 58, "learner": "logistique", "config": {"C": 0.013954327745885736}, "validation_loss": 0.34538833886605935, "wall_clock_time": 105.69}
+{"record_id": 59, "learner": "logistique", "config": {"C": 19.869045361339282}, "validation_loss": 0.25585439204116245, "wall_clock_time": 105.77}
+{"record_id": 60, "learner": "logistique", "config": {"C": 0.3722036254341533}, "validation_loss": 0.25445531038926295, "wall_clock_time": 105.85}
+{"record_id": 61, "learner": "extra_tree", "config": {"n_estimators": 400, "max_depth": null}, "validation_loss": 0.21210426616689837, "wall_clock_time": 107.7}
+{"record_id": 62, "learner": "rf", "config": {"n_estimators": 400, "max_depth": 10, "min_samples_leaf": 5}, "validation_loss": 0.21125504768627446, "wall_clock_time": 110.59}
+{"record_id": 63, "learner": "hist_gb", "config": {"learning_rate": 0.02314706139658873, "max_leaf_nodes": 31, "max_iter": 200}, "validation_loss": 0.18588928012437833, "wall_clock_time": 116.8}
+{"record_id": 64, "learner": "rf", "config": {"n_estimators": 100, "max_depth": 6, "min_samples_leaf": 5}, "validation_loss": 0.2623176898216264, "wall_clock_time": 119.29}

@@ -1,6 +1,6 @@
 # TP04 - AutoML local et plateformes low-code
 
-Projet de détection de fraude réalisé avec le jeu déterministe du TP2. L'environnement disponible utilise le plan B prévu dans le sujet : recherche de modèles scikit-learn au lieu de FLAML.
+Projet de détection de fraude réalisé avec le jeu déterministe du TP2. La recherche AutoML utilise FLAML 2.7.0 avec Python 3.13.
 
 ## Installation
 
@@ -20,21 +20,22 @@ Les scripts utilisent un backend MLflow SQLite (`mlflow.db`) pour conserver les 
 
 ```powershell
 python src/references.py
-python src/automl_sklearn.py 10
-python src/automl_sklearn.py 30
-python src/automl_sklearn.py 60
-python src/automl_sklearn.py 120
-python src/inspecter.py reports/maison_60s.log
+python src/automl.py 10
+python src/automl.py 30
+python src/automl.py 60
+python src/automl.py 120
+python src/inspecter.py reports/flaml_60s.log
 python src/rendement.py
 python src/fuite.py
 ```
 
-Valeurs obtenues pendant la préparation : références F1 = 0.7407 (logistique) et 0.8669 (forêt TP2) ; recherche maison 60 s F1 test = 0.8582. Les durées et les scores peuvent varier selon la machine.
+Valeurs obtenues pendant la préparation : références F1 = 0.7407 (logistique) et 0.8669 (forêt TP2) ; FLAML 60 s F1 test = 0.8582. Les durées et les scores peuvent varier selon la machine.
 
 ## Contenu
 
 - `src/references.py` : références logistique et forêt manuelle, journalisées dans MLflow.
-- `src/automl_sklearn.py` : recherche random sur quatre familles avec journal JSON Lines.
+- `src/automl.py` : recherche FLAML avec journal de tous les essais.
+- `src/automl_sklearn.py` : solution de secours scikit-learn, conservée en annexe.
 - `src/inspecter.py` : résumé des essais et meilleurs scores de validation.
 - `src/rendement.py` : graphique de rendement des budgets dans `reports/rendement.png`.
 - `src/fuite.py` : démonstration de la fuite temporelle.
